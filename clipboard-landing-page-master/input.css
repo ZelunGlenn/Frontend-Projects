@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+@layer base {
+  html {
+    font-family: theme(fontFamily.Bai-Jamjuree), sans-serif;
+    @apply text-slate-700 font-normal text-lg;
+  }
+
+  p {
+    @apply text-slate-400; 
+  }
+
+  button {
+    @apply py-3 px-8 shadow-lg rounded-3xl text-white;
+  }
+}
