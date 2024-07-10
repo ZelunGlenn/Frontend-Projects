@@ -2,12 +2,11 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  padding: 0;
-  margin: 0;
-}
-
 @layer base {
+  * {
+     @apply m-0 p-0;
+  }
+
   html {
     font-family: theme(fontFamily.Bai-Jamjuree), sans-serif;
     @apply text-slate-700 font-normal text-lg;
@@ -19,5 +18,11 @@
 
   button {
     @apply py-3 px-8 shadow-lg rounded-3xl text-white;
+  }
+}
+
+@layer components {
+  .px-title {
+    @apply px-32;
   }
 }

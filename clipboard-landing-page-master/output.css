@@ -446,6 +446,11 @@ video {
   display: none;
 }
 
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
 html {
   font-family: "Bai Jamjuree", sans-serif, sans-serif;
   font-size: 1.125rem;
@@ -615,37 +620,113 @@ button {
   }
 }
 
+.relative {
+  position: relative;
+}
+
+.left-0 {
+  left: 0px;
+}
+
+.-left-20 {
+  left: -5rem;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mt-8 {
-  margin-top: 2rem;
-}
-
-.mt-14 {
-  margin-top: 3.5rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
 }
 
 .flex {
   display: flex;
 }
 
+.h-\[30vh\] {
+  height: 30vh;
+}
+
+.h-\[70vh\] {
+  height: 70vh;
+}
+
 .h-screen {
   height: 100vh;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.h-\[20vh\] {
+  height: 20vh;
+}
+
+.h-\[80vh\] {
+  height: 80vh;
 }
 
 .w-24 {
   width: 6rem;
 }
 
+.w-\[650px\] {
+  width: 650px;
+}
+
 .w-full {
   width: 100%;
+}
+
+.w-11 {
+  width: 2.75rem;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-80 {
+  width: 20rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[100rem\] {
+  width: 100rem;
+}
+
+.w-\[70rem\] {
+  width: 70rem;
+}
+
+.w-\[50rem\] {
+  width: 50rem;
+}
+
+.w-\[30rem\] {
+  width: 30rem;
+}
+
+.w-\[40rem\] {
+  width: 40rem;
+}
+
+.w-\[45rem\] {
+  width: 45rem;
+}
+
+.w-\[43rem\] {
+  width: 43rem;
+}
+
+.w-\[42rem\] {
+  width: 42rem;
+}
+
+.w-\[41rem\] {
+  width: 41rem;
 }
 
 .max-w-375 {
@@ -660,6 +741,18 @@ button {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
+.justify-evenly {
+  justify-content: space-evenly;
+}
+
+.gap-10 {
+  gap: 2.5rem;
+}
+
 .gap-4 {
   gap: 1rem;
 }
@@ -668,8 +761,24 @@ button {
   gap: 2rem;
 }
 
-.gap-10 {
-  gap: 2.5rem;
+.gap-36 {
+  gap: 9rem;
+}
+
+.gap-14 {
+  gap: 3.5rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.overflow-hidden {
+  overflow: hidden;
 }
 
 .bg-Light-Blue {
@@ -694,8 +803,58 @@ button {
   background-repeat: no-repeat;
 }
 
+.pt-11 {
+  padding-top: 2.75rem;
+}
+
+.pl-10 {
+  padding-left: 2.5rem;
+}
+
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pr-16 {
+  padding-right: 4rem;
+}
+
+.pr-24 {
+  padding-right: 6rem;
+}
+
+.pr-36 {
+  padding-right: 9rem;
+}
+
+.pr-48 {
+  padding-right: 12rem;
+}
+
+.pr-64 {
+  padding-right: 16rem;
+}
+
+.pr-80 {
+  padding-right: 20rem;
+}
+
+.pr-96 {
+  padding-right: 24rem;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
 }
 
 .text-4xl {
@@ -705,11 +864,6 @@ button {
 
 .font-medium {
   font-weight: 500;
-}
-
-* {
-  padding: 0;
-  margin: 0;
 }
 
 @media (min-width: 375px) {
