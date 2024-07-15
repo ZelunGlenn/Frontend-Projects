@@ -12,113 +12,111 @@
   
   <title>Frontend Mentor | Clipboard landing page</title>
 </head>
-<body class="bg-header-mobile sm:bg-header-desktop bg-no-repeat bg-contain container mx-auto w-full max-w-375 sm:max-w-1440">
-  <hero class="flex flex-col h-[80vh] w-full items-center gap-10 pt-28 text-center">
-    <img src="./images/logo.svg" alt="Logo" class="w-24">
-    <div class="flex flex-col items-center gap-4">
-      <h1 class="font-medium text-4xl">A history of Everything you copy</h1>
-      <p class="w-[650px]">Clickboard allow you to track and organize everything you copy. Instantly access your clickboard on your application.</p>
-    </div>
-    <div class="flex gap-8">
-      <button class="bg-Strong-Cyan">Download for iOS</button>
-      <button class="bg-Light-Blue">Download for Mac</button>
-    </div>
-  </hero>
-  <div class="flex flex-col h-screen w-full">
-    <div class="h-[20vh] flex flex-col items-center justify-center text-center gap-4">
-      <h2>Keep track of your snippets</h2>
-      <p class="w-[650px]">Cliboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
-    </div>
-    <div class="flex items-center h-[80vh] overflow-hidden gap-12">
-      <img src="./images/image-computer.png" alt="computer" class="relative -left-20 w-[40rem]">
-      <div class="flex flex-col h-full justify-evenly w-96">
-        <div>
-          <h3>Quick Search</h3>
-          <p>Easily search your snippets by content, category, web address, application, and more.</p>
+<body>
+  <div class="bg-header-mobile sm:bg-header-desktop bg-no-repeat bg-contain mx-auto w-full max-w-375 sm:max-w-full snap-y snap-mandatory overflow-y-scroll h-screen">
+    <hero class="flex flex-col h-[80vh] w-full items-center gap-10 pt-28 text-center snap-start">
+      <img src="./images/logo.svg" alt="Logo" class="w-24">
+      <div class="flex flex-col items-center gap-4">
+        <h1 class="font-medium text-4xl">A history of Everything you copy</h1>
+        <p class="w-[650px]">Clickboard allow you to track and organize everything you copy. Instantly access your clickboard on your application.</p>
+      </div>
+      <div class="flex gap-8">
+        <button class="bg-Strong-Cyan">Download for iOS</button>
+        <button class="bg-Light-Blue">Download for Mac</button>
+      </div>
+    </hero>
+    <div class="flex flex-col h-screen w-full snap-start">
+      <div class="h-[20vh] flex flex-col items-center justify-center text-center gap-4">
+        <h2>Keep track of your snippets</h2>
+        <p class="w-[650px]">Cliboard instantly stores any item you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+      </div>
+      <div class="flex items-center justify-center h-[80vh] overflow-hidden gap-12">
+        <img src="./images/image-computer.png" alt="computer" class="relative -left-20 w-[40rem]">
+        <div class="flex flex-col h-full justify-evenly w-96">
+          <div>
+            <h3>Quick Search</h3>
+            <p>Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+          <div>
+            <h3>iCloud Sync</h3>
+            <p>Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
+          <div>
+            <h3>Complete History</h3>
+            <p>Easily search your snippets by content, category, web address, application, and more.</p>
+          </div>
         </div>
-        <div>
-          <h3>iCloud Sync</h3>
-          <p>Easily search your snippets by content, category, web address, application, and more.</p>
+      </div>
+    </div>
+    <div class="flex flex-col h-[80vh] w-full justify-around items-center overflow-hidden snap-start">
+      <div class="flex flex-col items-center gap-4 text-center">
+        <h2>Access Clickboard anywhere</h2>
+        <p class="w-[650px]">Whether you are on the top, or at your computer. You can access all your Clickboard snippets in a few simple clicks.</p>
+      </div>
+      <img src="./images/image-devices.png" alt="devices" class="w-3/5">
+    </div>
+    <div class="flex flex-col items-center text-center h-[60vh] snap-start">
+      <div class="flex flex-col items-center gap-4 text-center h-[20vh]">
+        <h2>Supercharge your workflow</h2>
+        <p class="w-[650px]">We've got the tools to boost your productivity.</p>
+      </div>
+      <div class="grid grid-rows-1 grid-cols-3 gap-4 w-full">
+        <div class="flex flex-col items-center gap-10">
+          <img src="./images/icon-blacklist.svg" alt="blacklist" class="w-10">
+          <h3>Create blacklists</h3>
+          <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
         </div>
-        <div>
-          <h3>Complete History</h3>
-          <p>Easily search your snippets by content, category, web address, application, and more.</p>
+        <div class="flex flex-col items-center gap-10">
+          <img src="./images/icon-text.svg" alt="text" class="w-10">
+          <h3>Plain text snippets</h3>
+          <p>Remove unwanted formatting from copied text for a consistent look.</p>
+        </div>
+        <div class="flex flex-col items-center gap-10">
+          <img src="./images/icon-preview.svg" alt="preview" class="w-10">
+          <h3>Sneak preview</h3>
+          <p>Quick preview of all snippets on your Clipboard for easy access.</p>
         </div>
       </div>
+      <div class="grid grid-rows-1 grid-cols-5 gap-6 place-content-around justify-items-center items-center w-full mt-20">
+        <img src="./images/logo-google.png" alt="google">
+        <img src="./images/logo-hp.png" alt="hp">
+        <img src="./images/logo-ibm.png" alt="ibm">
+        <img src="./images/logo-microsoft.png" alt="microsoft">
+        <img src="./images/logo-vector-graphics.png" alt="">
+      </div>
     </div>
+    <div class="flex flex-col items-center text-center h-[40vh] gap-10 snap-start">
+      <div class="flex flex-col items-center gap-4 text-center">
+        <h2>Clipboard for iOS and Mac OS</h2>
+        <p class="w-[650px]">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
+      </div>
+      <div class="flex gap-8">
+        <button class="bg-Strong-Cyan">Download for iOS</button>
+        <button class="bg-Light-Blue">Download for Mac</button>
+      </div>
+    </div>
+    <footer class="bg-slate-100 py-10">
+      <div class="flex justify-around">
+        <div class="grid grid-cols-4 grid-rows-2 gap-x-10 gap-y-4">
+          <img src="./images/logo.svg" alt="logo" class="row-span-2 w-14">
+          <a class="link">FAQs</a>
+          <a class="link">Privacy Policy</a>
+          <a class="link">Install Guide</a>
+          <a class="link">Contact Us</a>
+          <a class="link">Press Kit</a>
+        </div>
+        <div class="flex gap-4 items-center">
+          <img src="./images/icon-facebook.svg" alt="facebook" class="size-8">
+          <img src="./images/icon-instagram.svg" alt="Instagram" class="size-8">
+          <img src="./images/icon-twitter.svg" alt="twitter" class="size-8">
+        </div>
+      </div>
+      
+    </footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Your Name Herezzzzz</a>.
+    </p>
   </div>
-  <div class="flex flex-col h-[80vh] w-full justify-around items-center overflow-hidden">
-    <div class="flex flex-col items-center gap-4 text-center">
-      <h2>Access Clickboard anywhere</h2>
-      <p class="w-[650px]">Whether you are on the top, or at your computer. You can access all your Clickboard snippets in a few simple clicks.</p>
-    </div>
-    <img src="./images/image-devices.png" alt="devices" class="w-3/5">
-  </div>
-  <div class="flex flex-col items-center text-center h-[60vh]">
-    <div class="flex flex-col items-center gap-4 text-center h-[20vh]">
-      <h2>Supercharge your workflow</h2>
-      <p class="w-[650px]">We've got the tools to boost your productivity.</p>
-    </div>
-    <div class="grid grid-rows-1 grid-cols-3 gap-4 w-full">
-      <div class="flex flex-col items-center gap-10">
-        <img src="./images/icon-blacklist.svg" alt="blacklist" class="w-10">
-        <h3>Create blacklists</h3>
-        <p>Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
-      </div>
-      <div class="flex flex-col items-center gap-10">
-        <img src="./images/icon-text.svg" alt="text" class="w-10">
-        <h3>Plain text snippets</h3>
-        <p>Remove unwanted formatting from copied text for a consistent look.</p>
-      </div>
-      <div class="flex flex-col items-center gap-10">
-        <img src="./images/icon-preview.svg" alt="preview" class="w-10">
-        <h3>Sneak preview</h3>
-        <p>Quick preview of all snippets on your Clipboard for easy access.</p>
-      </div>
-    </div>
-    <div class="grid grid-rows-1 grid-cols-5 gap-6 place-content-around justify-items-center items-center w-full mt-20">
-      <img src="./images/logo-google.png" alt="google">
-      <img src="./images/logo-hp.png" alt="hp">
-      <img src="./images/logo-ibm.png" alt="ibm">
-      <img src="./images/logo-microsoft.png" alt="microsoft">
-      <img src="./images/logo-vector-graphics.png" alt="">
-    </div>
-  </div>
-  <div class="flex flex-col items-center text-center h-[40vh] gap-10">
-    <div class="flex flex-col items-center gap-4 text-center">
-      <h2>Clipboard for iOS and Mac OS</h2>
-      <p class="w-[650px]">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
-    </div>
-    <div class="flex gap-8">
-      <button class="bg-Strong-Cyan">Download for iOS</button>
-      <button class="bg-Light-Blue">Download for Mac</button>
-    </div>
-  </div>
-
-
-
-  
-  <footer class="bg-slate-100 py-10">
-    <div class="flex justify-around">
-      <div class="grid grid-cols-4 grid-rows-2 gap-x-10 gap-y-4">
-        <img src="./images/logo.svg" alt="logo" class="row-span-2 w-14">
-        <a class="link">FAQs</a>
-        <a class="link">Privacy Policy</a>
-        <a class="link">Install Guide</a>
-        <a class="link">Contact Us</a>
-        <a class="link">Press Kit</a>
-      </div>
-      <div class="flex gap-4 items-center">
-        <img src="./images/icon-facebook.svg" alt="facebook" class="size-8">
-        <img src="./images/icon-instagram.svg" alt="Instagram" class="size-8">
-        <img src="./images/icon-twitter.svg" alt="twitter" class="size-8">
-      </div>
-    </div>
-    
-  </footer>
-  <p class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </p>
 </body>
 </html>
