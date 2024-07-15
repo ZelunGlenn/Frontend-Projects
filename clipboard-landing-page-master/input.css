@@ -19,10 +19,22 @@
   button {
     @apply py-3 px-8 shadow-lg rounded-3xl text-white;
   }
+
+  h2 {
+    @apply font-medium text-3xl;
+  }
+
+  h3 {
+    @apply font-medium text-2xl;
+  }
 }
 
 @layer components {
   .px-title {
     @apply px-32;
+  }
+
+  .link {
+    @apply text-slate-500;
   }
 }
