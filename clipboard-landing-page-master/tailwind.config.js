@@ -11,7 +11,8 @@ module.exports = {
         'Bai-Jamjuree': ['"Bai Jamjuree"', 'sans-serif'],
       },
       screens: {
-        "sm": "375px",
+        "sm": "475px",
+        "lg": "1440px",
       },
       spacing: {
         "375": "23.44rem",
